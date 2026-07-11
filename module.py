@@ -3,4 +3,5 @@ import main
 def solo():
     return 10
 
-def mult(x, y): return x * y
+def mult(a, b): return a * b
+def addit(a, b): return a + b # new feature
