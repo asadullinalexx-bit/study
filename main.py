@@ -11,7 +11,7 @@ from datetime import datetime, timezone
 
 from rates import get_rates
 
-WATCHLIST = ["EUR", "RUB", "GBP", "CNY"]   # за какими валютами следим
+WATCHLIST = ["RUB", "EUR", "CHF", "CNY"]   # за какими валютами следим
 HISTORY_FILE = os.path.join(os.path.dirname(__file__), "history.json")
 
 
